@@ -41,6 +41,7 @@ nav {
     text-align: center;
     background-image: url('../images/groupthirteen.png');
     background-repeat: no-repeat;
+    object-fit: cover;
     width: 80%;
     padding: 50px;
 }
@@ -196,6 +197,37 @@ nav {
     flex-shrink: 0;
 }
 
+.unique{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 20px auto;
+    gap: 10px;
+}
+.unique-one{
+    background-color: bisque;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.unique-two{
+    background-color: plum;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.unique-title{
+    background: linear-gradient(to bottom, pink, rgb(253, 94, 253));
+    background-clip: text;
+    color: transparent;
+}
+.unique-title-two{
+    color: antiquewhite;
+}
+.unique-description{
+    color: purple;
+}
 
 footer{
     text-align: center;
@@ -220,8 +252,8 @@ footer{
     }
 
     .banner {
-        padding: 0px;
-        width: 100%;
+        padding: 40px 20px 20px 20px;
+        width: 90%;
     }
 
     .banner .banner-title {
@@ -264,6 +296,14 @@ footer{
     .newsletter{
         flex-direction: column;
         gap:10px;
+    }
+    .unique{
+        flex-direction: column;
+    }
+    .discound{
+        position: relative;
+        left: 200px;
+        bottom: 150px;
     }
 
 
